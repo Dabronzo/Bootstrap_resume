@@ -15,7 +15,7 @@
 }
 
 .ui-menu-color-contact{
-    background-color: #3598db;
+    background-color: #3498db;
 }
 
 .ui-menu-color-download{
@@ -56,13 +56,16 @@ header{
     margin-bottom: 90px;
     color: #fff;
 }
-
+/*-------------------------------Header/Navbar---------------*/
 .list-inline-item:not(:last-child){
-    margin-right: 0;
+    margin: 0;
 }
 
 .menucontainer{
     font-size: 0;
+}
+#nav {
+    margin: 0;
 }
 
 #nav li{
@@ -99,4 +102,9 @@ header{
     font-size: 14;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
 }
